@@ -349,7 +349,7 @@ class Findfalcone extends Component {
       planet_names: [ddEvent1, ddEvent2, ddEvent3, ddEvent4],
       vehicle_names: [rbEvent1, rbEvent2, rbEvent3, rbEvent4],
     };
-    // console.log(JSON.parse(JSON.stringify(JSONObj)));
+    console.log(JSON.parse(JSON.stringify(JSONObj)));
     const proxyurl = "https://cors-anywhere.herokuapp.com/";
     const url = "https://findfalcone.herokuapp.com/find";
     fetch(proxyurl + url, {
